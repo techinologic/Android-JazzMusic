@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="net.androidbootcamp.jazzmusic.PlayMusic">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtName1"
+            android:id="@+id/txtName1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="180dp"
+            android:id="@+id/earlhines"
+            android:src="@drawable/earlhines"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/txtName1"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60sp"
+            android:layout_height="55sp"
+            android:text="@string/btnBio1"
+            android:id="@+id/btnBio1"
+            android:layout_below="@+id/earlhines"
+            android:layout_alignLeft="@+id/earlhines"
+            android:layout_alignStart="@+id/earlhines"
+            android:textSize="15sp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnPlaySong1"
+            android:id="@+id/btnPlaySong1"
+            android:layout_below="@+id/earlhines"
+            android:layout_toRightOf="@+id/btnVisitArchive1"
+            android:layout_toEndOf="@+id/btnVisitArchive1" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="185dp"
+            android:id="@+id/sonnystitt"
+            android:src="@drawable/sonnystitt"
+            android:layout_below="@+id/txtName2"
+            android:layout_alignLeft="@+id/btnBio1"
+            android:layout_alignStart="@+id/btnBio1" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60sp"
+            android:layout_height="55sp"
+            android:text="@string/btnBio2"
+            android:id="@+id/btnBio2"
+            android:layout_below="@+id/sonnystitt"
+            android:layout_alignLeft="@+id/sonnystitt"
+            android:layout_alignStart="@+id/sonnystitt"
+            android:textSize="15sp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnPlaySong2"
+            android:id="@+id/btnPlaySong2"
+            android:layout_below="@+id/sonnystitt"
+            android:layout_toRightOf="@+id/btnVisitArchive2"
+            android:layout_toEndOf="@+id/btnVisitArchive2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnVisitArchive1"
+            android:id="@+id/btnVisitArchive1"
+            android:textSize="14sp"
+            android:layout_below="@+id/earlhines"
+            android:layout_toRightOf="@+id/btnBio1"
+            android:layout_toEndOf="@+id/btnBio1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtName2"
+            android:id="@+id/txtName2"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_below="@+id/btnPlaySong1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnVisitArchive2"
+            android:id="@+id/btnVisitArchive2"
+            android:textSize="14sp"
+            android:layout_below="@+id/sonnystitt"
+            android:layout_toRightOf="@+id/btnBio2"
+            android:layout_toEndOf="@+id/btnBio2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtName3"
+            android:id="@+id/txtName3"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_below="@+id/btnPlaySong2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="185dp"
+            android:id="@+id/artfarmer"
+            android:src="@drawable/artfarmer"
+            android:layout_below="@+id/txtName3"
+            android:layout_alignLeft="@+id/btnBio2"
+            android:layout_alignStart="@+id/btnBio2" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60sp"
+            android:layout_height="55sp"
+            android:text="@string/btnBio3"
+            android:id="@+id/btnBio3"
+            android:textSize="15sp"
+            android:layout_below="@+id/artfarmer"
+            android:layout_alignLeft="@+id/artfarmer"
+            android:layout_alignStart="@+id/artfarmer" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnPlaySong3"
+            android:id="@+id/btnPlaySong3"
+            android:layout_below="@+id/artfarmer"
+            android:layout_toRightOf="@+id/btnVisitArchive3"
+            android:layout_toEndOf="@+id/btnVisitArchive3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnVisitArchive3"
+            android:id="@+id/btnVisitArchive3"
+            android:textSize="14sp"
+            android:layout_alignTop="@+id/btnBio3"
+            android:layout_toRightOf="@+id/btnBio3"
+            android:layout_toEndOf="@+id/btnBio3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtName4"
+            android:id="@+id/txtName4"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_below="@+id/btnPlaySong3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp" />
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="185dp"
+            android:id="@+id/horacesilver"
+            android:src="@drawable/horacesilver"
+            android:layout_below="@+id/txtName4"
+            android:layout_alignLeft="@+id/btnBio3"
+            android:layout_alignStart="@+id/btnBio3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60sp"
+            android:layout_height="55sp"
+            android:text="@string/btnBio4"
+            android:id="@+id/btnBio4"
+            android:textSize="15sp"
+            android:layout_below="@+id/horacesilver"
+            android:layout_alignLeft="@+id/horacesilver"
+            android:layout_alignStart="@+id/horacesilver" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnPlaySong4"
+            android:id="@+id/btnPlaySong4"
+            android:layout_below="@+id/horacesilver"
+            android:layout_toRightOf="@+id/btnVisitArchive4"
+            android:layout_toEndOf="@+id/btnVisitArchive4" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="110sp"
+            android:layout_height="55sp"
+            android:text="@string/btnVisitArchive4"
+            android:id="@+id/btnVisitArchive4"
+            android:textSize="14sp"
+            android:layout_alignTop="@+id/btnBio4"
+            android:layout_toRightOf="@+id/btnBio4"
+            android:layout_toEndOf="@+id/btnBio4" />
+
+    </RelativeLayout>
+
+</ScrollView>
