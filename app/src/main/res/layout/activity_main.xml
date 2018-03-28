@@ -8,12 +8,14 @@
     tools:context="net.androidbootcamp.jazzmusic.MainActivity">
 
     <Button
+        android:id="@+id/btnListen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnListen"
-        android:id="@+id/btnListen"
-        android:layout_below="@+id/txtArchiveDescription"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:padding="20dp"
+        android:text="@string/btnListen" />
 
     <ImageView
         android:layout_width="300sp"

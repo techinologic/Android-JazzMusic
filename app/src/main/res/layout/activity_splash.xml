@@ -17,16 +17,20 @@
         android:contentDescription="@string/imgSplash" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtTitle"
-        android:id="@+id/textView"
-        android:typeface="serif"
-        android:textStyle="bold|italic"
-        android:textSize="55sp"
-        android:textColor="#800000"
-        android:layout_marginTop="47dp"
-        android:textColorHighlight="#765677"
         android:layout_alignTop="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:shadowColor="@android:color/background_dark"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="@string/txtTitle"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="#765677"
+        android:textSize="55sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
 </RelativeLayout>
